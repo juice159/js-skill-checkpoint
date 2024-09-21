@@ -4,6 +4,6 @@
 
 ## ข้อมูลผู้สอบ
 
-- ชื่อ:
-- นามสกุล:
-- อีเมล:
+- ชื่อ: Thanutham
+- นามสกุล: Baikwang
+- อีเมล: thanutham.j@gmail.com
