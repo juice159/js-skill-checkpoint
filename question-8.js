@@ -2,11 +2,11 @@
 
 // เริ่มเขียนโค้ดตรงนี้
 // Question 8: Fetching User List from Server
-function fetchUsers() {
+let getUsersData = () => {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(data => data.json()) 
       .then(data => {
-        const newUsers = data.map(user => user.name);
+        let newUsers = data.map(user => user.name);
   
         
         console.log(newUsers);
@@ -15,7 +15,7 @@ function fetchUsers() {
   }
   
   
-  fetchUsers();
+  getUsersData();
   
 
 
